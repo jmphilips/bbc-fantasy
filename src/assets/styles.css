@@ -1,0 +1,18 @@
+h1 {
+    color: navy;
+    font-size: 3rem;
+    font-family: Caladea;
+    font-style: italic;
+    text-shadow: 2px 2px #E4C589;
+}
+
+body {
+    background-image: linear-gradient(to right, #E29F11, #FEF75A, #E29F11);
+}
+
+.nav__link {
+    color: #AA191A;
+    letter-spacing: 2px;
+    text-underline: none;
+    margin: .5rem;
+}

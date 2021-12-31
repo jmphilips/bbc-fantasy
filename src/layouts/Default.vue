@@ -47,7 +47,4 @@ body {
   height: 80px;
 }
 
-.nav__link {
-  margin-left: 20px;
-}
 </style>
