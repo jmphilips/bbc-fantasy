@@ -4,6 +4,7 @@
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
+      <div class="nav__toggle"><p class="nav__toggle__text">BOTTLE</p></div>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/constitution">Constitution</g-link>
@@ -12,7 +13,14 @@
         <g-link class="nav__link" to="/about/">About Us</g-link>
       </nav>
     </header>
-    <slot/>
+    <div class="content">
+      <slot/>
+    </div>
+    <footer>
+      <div class="footer">
+        <h2>----- Powered by Soju -----</h2>
+      </div>
+    </footer>
   </div>
 </template>
 

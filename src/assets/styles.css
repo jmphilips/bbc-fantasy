@@ -4,10 +4,42 @@ h1 {
     font-family: Caladea;
     font-style: italic;
     text-shadow: 2px 2px #E4C589;
+    text-align: center;
+}
+
+h2 {
+    color: navy;
+    font-family: Caladea;
+    font-style: italic;
+    text-shadow: 2px 2px #E4C589;
+    text-align: center;
+}
+
+footer {
+    margin-top: 4rem;
+}
+
+nav {
+    overflow: hidden;
+}
+
+.content {
+    background-color: white;
+    padding: 2rem;
+    width: 90%;
+    border-radius: 2rem;
 }
 
 body {
     background-image: linear-gradient(to right, #E29F11, #FEF75A, #E29F11);
+}
+
+.nav__toggle {
+    display: none;
+}
+
+.nav__toggle__text {
+    text-align: right;
 }
 
 .nav__link {
@@ -15,4 +47,20 @@ body {
     letter-spacing: 2px;
     text-underline: none;
     margin: .5rem;
+    float: left;
+    display: block;
+}
+
+.nav__link:hover {
+    color: navy;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav__link {display: none}
+    .nav__toggle {
+        position: absolute;
+        right: 0;
+        left: 0;
+        display: block;
+    }
 }
